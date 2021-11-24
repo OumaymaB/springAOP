@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-11-16T10:22:14.974725900Z</date>
+  <millis>1637058134974</millis>
+  <nanos>725900</nanos>
+  <sequence>0</sequence>
+  <logger>enset.ma.aspects.LogAspect</logger>
+  <level>INFO</level>
+  <class>enset.ma.aspects.LogAspect</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>from logging aspect before void enset.ma.service.IMetier.process()</message>
+</record>
+<record>
+  <date>2021-11-16T10:22:15.009734300Z</date>
+  <millis>1637058135009</millis>
+  <nanos>734300</nanos>
+  <sequence>1</sequence>
+  <logger>enset.ma.aspects.LogAspect</logger>
+  <level>INFO</level>
+  <class>enset.ma.aspects.LogAspect</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>from logging aspect after void enset.ma.service.IMetier.process()</message>
+</record>
+<record>
+  <date>2021-11-16T10:22:15.021730500Z</date>
+  <millis>1637058135021</millis>
+  <nanos>730500</nanos>
+  <sequence>2</sequence>
+  <logger>enset.ma.aspects.LogAspect</logger>
+  <level>INFO</level>
+  <class>enset.ma.aspects.LogAspect</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Duration 51</message>
+</record>
+</log>
